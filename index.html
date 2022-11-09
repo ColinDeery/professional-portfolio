@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
+
 <body>
     <header>
         <h1>Colin Bradford Deery</h1>
         <nav class="nav">
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
+                <li><a href=#About-Me>About Me</a></li>
+                <li><a href=#Work>Work</a> </li>
+                <li><a href=#Contact-Me>Contact Me</a> </li>
                 <li>Resume</li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div class="banner-img">Image</div>
-    
-        <aside>
-       <h1>Work</h1>
-    </aside>
-    <section>
-        <div class=card>Image</div>
+    <section class="banner-img">
+        <img src="./assets/images/banner image.jpeg" alt="banner image"></img>
+        <aside class="text-block">
+            <h2 class="catchphrase">Catchphrase</h2>
+            <p>some more text</p>
+        </aside>
     </section>
+
+
+    <main>
+        <section class="about-me" id="About-Me">
+            <h1>About Me</h1>
+            <p>My name is Colin Deery and I am an aspiring full stack web developer currently based in Lancaster, Pennsylvania. Welcome to my project portfolio! I was first drawn to coding 
+            </p>
+        </section>
+
+        <section class="projects" id="Work">
+            <h1>Work</h1>
+
+            <img class=card></img>
+            <div class=card>Image</div>
+            <div class=card>Image</div>
+            <div class=card>Image</div>
+            <div class=card>Image</div>
+        </section>
+
+        <section class="contact-me">
+            <h1 id="Contact-Me"> Contact Me</h1>
+        </section>
+
     </main>
 </body>
+
 </html>
